@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>MarvelBot</title>
+    <title>SuperheroBot</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         crossorigin="anonymous">
@@ -12,15 +12,13 @@
 
 <body>
     <div class="container">
-        <h2 id="info">Curious about your favorite Marvel superheroes and villains? Got questions? Look no further, ask
-            our
-            bot!
+        <h2 id="info">Curious about your favorite superheroes and villains? Got questions about Marvel or DC? Ask Tony,
+            the superhero know-it-all bot!
         </h2>
 
         <div class="row" id="row1">
-            <img src="https://www.marvel.com/static/images/favicon/android-chrome-icon-194.png"
-                alt="an M logo representing marvel" width="50" height="60">
-            <h3 id="title">Marvel Bot</h3>
+            <img src="static/bot.png" alt="picture of a bot" width="43" height=auto id="bot-img">
+            <h3 id="title">Superhero Bot</h3>
             <form action="/" , method="POST">
                 <input type="text" name="question" id="input" placeholder="Enter your question" required />
                 <input type="submit" value="Ask Away" />

@@ -5,15 +5,20 @@
     padding-top: 60px;
   }
   #info{
-    padding-left:95px;
-    padding-top: 80px;
-    font-size: 20px;
-    font-family: UC Berkeley OldStyle;;
-    color: #59595c; 
+    justify-content: center; 
+    padding-left: 20px;
+    padding-top: 40px;
+    font-size: 18px;
+    font-family:Tahoma, Verdana, sans-serif;
+    color:  #59595c; 
+  }
+  #bot-img{
+    margin-bottom: 10px;
   }
   #title {
-    font-size: 30pt;
-    font-family:  UC Berkeley OldStyle;
+    font-size: 26px;
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #59595c;
   }
   form {
     display: flex;
